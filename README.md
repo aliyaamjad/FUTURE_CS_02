@@ -1,14 +1,14 @@
-FUTURE_CS_02 – Phishing Email Detection & Awareness System
+# FUTURE_CS_02 – Phishing Email Detection & Awareness System
 
-Future Interns | Cyber Security Internship | Task 2
+**Future Interns | Cyber Security Internship | Task 2**
 
-Project Overview
+## 1. Project Overview
 
 This project demonstrates how phishing emails can be identified through suspicious sender details, deceptive subject lines, urgent language and requests for sensitive information.
 
 It focuses on analysing email characteristics, classifying potential threats and promoting cybersecurity awareness through practical examples and documented analysis.
 
-Objectives
+## 2. Objectives
 
 - Understand common phishing techniques.
 - Identify suspicious email characteristics.
@@ -17,70 +17,68 @@ Objectives
 - Promote safe email practices.
 - Develop cybersecurity awareness.
 
-Project Structure
+## 3. Project Structure
 
-FUTURE_CS_02/
-│
-├── analysis/
-│   ├── classification_criteria.md
-│   ├── email_analysis.md
-│   ├── header_analysis_method.md
-│   └── real_world_case_ftc.md
-│
-├── dataset/
-│   ├── email_samples.csv
-│   └── public_dataset_analysis.md
-│
-├── evidence/
-│   └── screenshots/
-│
-├── references/
-│
-├── README.md
-│
-└── Final Project Report (PDF)
+The repository contains the following files and folders:
 
-Dataset – Simulated Email Samples
+- `analysis/` – Email analysis and classification documentation.
+- `dataset/` – Simulated email samples and supplementary public dataset analysis.
+- `evidence/screenshots/` – Project evidence screenshots.
+- `references/` – Research and awareness references.
+- `README.md` – Project documentation.
+- PDF report – Final project report in the repository root.
+
+### Analysis Files
+
+- `classification_criteria.md`
+- `email_analysis.md`
+- `header_analysis_method.md`
+- `real_world_case_ftc.md`
+
+### Dataset Files
+
+- `email_samples.csv`
+- `public_dataset_analysis.md`
+
+## 4. Dataset – Simulated Email Samples
 
 The project includes five fictional email examples created for educational analysis.
 
-Sample ID| Scenario| Classification
-E01| Routine account notification| Safe-style control
-E02| Unexpected invoice notification| Suspicious
-E03| Bank account verification request| Phishing
-E04| Parcel delivery payment request| Phishing
-E05| Urgent password reset notification| Phishing
+- **E01 – Routine account notification:** Safe-style control.
+- **E02 – Unexpected invoice notification:** Suspicious.
+- **E03 – Bank account verification request:** Phishing.
+- **E04 – Parcel delivery payment request:** Phishing.
+- **E05 – Urgent password reset notification:** Phishing.
 
 These examples are simulated training scenarios and are not presented as actual received emails.
 
-Supplementary Public Dataset Analysis
+## 5. Supplementary Public Dataset Analysis
 
 In addition to the five fictional training examples, this project includes a supplementary analysis of selected examples from a publicly available phishing validation dataset.
 
-Dataset source: Zenodo – Phishing Validation Emails Dataset
+**Dataset source:** Zenodo – Phishing Validation Emails Dataset
 
-- Published: 29 August 2024
-- Dataset size: 2,000 email examples
-- Format: CSV
-- Original labels: Safe Email and Phishing Email
+- Published: 29 August 2024.
+- Dataset size: 2,000 email examples.
+- Format: CSV.
+- Original labels: Safe Email and Phishing Email.
 - The dataset contains a mixture of real-world and artificially generated examples.
 
-Selected examples reviewed:
+### Selected Examples
 
-Project ID| Example| Classification
-PUB-01| Gift card prize message| Phishing
-PUB-02| Bank secure message| Phishing
-PUB-03| Purchase confirmation| Safe-style control
+- **PUB-01 – Gift card prize message:** Phishing.
+- **PUB-02 – Bank secure message:** Phishing.
+- **PUB-03 – Purchase confirmation:** Safe-style control.
 
-The identifiers PUB-01 to PUB-03 are assigned for this project and are not original dataset identifiers.
+PUB-01, PUB-02 and PUB-03 are project-assigned identifiers, not original dataset identifiers.
 
-Detailed analysis: "View Public Dataset Analysis" (dataset/public_dataset_analysis.md)
+**Detailed analysis:** [View Public Dataset Analysis](dataset/public_dataset_analysis.md)
 
-Dataset reference: https://doi.org/10.5281/zenodo.13474746
+**Dataset reference:** https://doi.org/10.5281/zenodo.13474746
 
 The public dataset uses binary labels. The Suspicious category in this project is an additional analyst classification for ambiguous examples.
 
-Methodology
+## 6. Methodology
 
 The email samples were reviewed using the following criteria:
 
@@ -93,7 +91,7 @@ The email samples were reviewed using the following criteria:
 
 The analysis combines simulated email examples with supplementary public-dataset text analysis.
 
-Important Limitations
+## 7. Important Limitations
 
 - The original samples E01–E05 are fictional educational examples.
 - The supplementary dataset contains a mixture of real-world and artificially generated examples.
@@ -104,7 +102,7 @@ Important Limitations
 - No attachments or malware behaviour were analysed.
 - This project is an educational assessment and not a live phishing detection engine.
 
-Prevention Guidelines
+## 8. Prevention Guidelines
 
 - Never share passwords or OTPs through email.
 - Verify unexpected requests independently.
@@ -115,24 +113,24 @@ Prevention Guidelines
 - Report suspected phishing emails.
 - Stay informed about emerging email-based threats.
 
-References
+## 9. References
 
-1. Miltchev, Rangelov and Genchev (2024). Phishing Validation Emails Dataset. Zenodo. https://doi.org/10.5281/zenodo.13474746
+1. Miltchev, Rangelov and Genchev (2024). *Phishing Validation Emails Dataset*. Zenodo. https://doi.org/10.5281/zenodo.13474746
 2. Federal Trade Commission (FTC) – Consumer Advice: https://consumer.ftc.gov/
 3. Anti-Phishing Working Group (APWG): https://apwg.org/
 4. OWASP Foundation: https://owasp.org/
 
-Additional project references and supporting documentation are available in the "references/" and "analysis/" directories.
+Additional project references and supporting documentation are available in the `references/` and `analysis/` directories.
 
-Author
+## 10. Author
 
-Aliya Amjad
+**Aliya Amjad**
 
-Cyber Security Intern
+Cyber Security Intern  
 Future Interns – Task 2
 
-Project ID: FUTURE_CS_02
+**Project ID:** FUTURE_CS_02
 
 ---
 
-This project was developed for educational purposes as part of the Future Interns Cyber Security Internship.
+*This project was developed for educational purposes as part of the Future Interns Cyber Security Internship.*
